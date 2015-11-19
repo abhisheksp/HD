@@ -23,9 +23,7 @@ else
 	installed=1
 fi
 
-#Remove the below comment (#) before running the Script
-
-#rm -rf script
+rm -rf script
 
 if [ "$installed" == "1" ]
 then
